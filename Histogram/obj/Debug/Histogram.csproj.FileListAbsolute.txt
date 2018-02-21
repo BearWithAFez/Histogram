@@ -1,0 +1,40 @@
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.Histogram.resources
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.Properties.Resources.resources
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.csproj.GenerateResource.Cache
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.csproj.CoreCompileInputs.cache
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\bin\Debug\Histogram.exe.config
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\bin\Debug\Histogram.exe
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\bin\Debug\Histogram.pdb
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.exe
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.pdb
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Histogram\Histogram\obj\Debug\Histogram.csprojResolveAssemblyReference.cache
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\bin\Debug\Histogram.exe.config
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\bin\Debug\Histogram.exe
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\bin\Debug\Histogram.pdb
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.csprojResolveAssemblyReference.cache
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.Histogram.resources
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.Properties.Resources.resources
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.csproj.GenerateResource.Cache
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.csproj.CoreCompileInputs.cache
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.exe
+D:\Unief+HighSchool\3EO_2\Applied Programming\1718APVerlindeWim\Project 1\Code\Histogram\Histogram\obj\Debug\Histogram.pdb
+C:\Users\dwigh\Desktop\Histogram\Histogram\bin\Debug\Histogram.exe.config
+C:\Users\dwigh\Desktop\Histogram\Histogram\bin\Debug\Histogram.exe
+C:\Users\dwigh\Desktop\Histogram\Histogram\bin\Debug\Histogram.pdb
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.csprojResolveAssemblyReference.cache
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.Histogram.resources
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.Properties.Resources.resources
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.csproj.GenerateResource.Cache
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.csproj.CoreCompileInputs.cache
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.exe
+C:\Users\dwigh\Desktop\Histogram\Histogram\obj\Debug\Histogram.pdb
+D:\Histogram\Histogram\bin\Debug\Histogram.exe.config
+D:\Histogram\Histogram\bin\Debug\Histogram.exe
+D:\Histogram\Histogram\bin\Debug\Histogram.pdb
+D:\Histogram\Histogram\obj\Debug\Histogram.csprojResolveAssemblyReference.cache
+D:\Histogram\Histogram\obj\Debug\Histogram.Histogram.resources
+D:\Histogram\Histogram\obj\Debug\Histogram.Properties.Resources.resources
+D:\Histogram\Histogram\obj\Debug\Histogram.csproj.GenerateResource.Cache
+D:\Histogram\Histogram\obj\Debug\Histogram.csproj.CoreCompileInputs.cache
+D:\Histogram\Histogram\obj\Debug\Histogram.exe
+D:\Histogram\Histogram\obj\Debug\Histogram.pdb
