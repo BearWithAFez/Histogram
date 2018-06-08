@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gui", "Histogram\Gui.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{43D51B71-2DB1-4FA6-A0F8-AFDBA95B4A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "ClassLibrary1\Logica.csproj", "{CA7EAB25-A94C-4A75-97F3-A9787C5FF585}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{CA7EAB25-A94C-4A75-97F3-A9787C5FF585}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
