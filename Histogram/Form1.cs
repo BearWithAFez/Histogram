@@ -1,68 +1,63 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using LogicaLayer;
 
-namespace Histogram
+namespace GuiLayer
 {
-    public partial class Histogram : Form
+    public partial class Gui : Form
     {
-        Logica logica = new Logica();
-        private Bitmap afbeelding;
+        ILogic logic = new Logic();
 
-        public Histogram()
+        public Gui()
         {
             InitializeComponent();
             pathBox.ReadOnly = true;
             statusLabel.Text = String.Empty;
             buttonHistogram.Enabled = false;
-            comboBoxColorCode.DataSource = Enum.GetValues(typeof(Logica.ColorCode));
+            comboBoxColorCode.DataSource = Enum.GetValues(typeof(ColorSystems));
         }
 
-        private void inlezen_Click(object sender, EventArgs e)
+        private void Inlezen_Click(object sender, EventArgs e)
         {
             try
             {
                 DialogResult result = openFileDialog.ShowDialog();
                 if (result == DialogResult.OK)
                 {
-                    string filename = openFileDialog.FileName.ToString();
-                    pathBox.Text = Path.GetFileName(filename);
-                    afbeelding = new Bitmap(filename);
-                    imageOrigineel.Image = afbeelding;
+                    var path = openFileDialog.FileName.ToString();
+                    pathBox.Text = Path.GetFileName(path);
+                    logic.GetOriginalImage(path);
+                    imageOrigineel.Image = new Bitmap(path);
                     buttonHistogram.Enabled = true;
                     ResetGUI();
                 }
             }
             catch
             {
-                MessageBox.Show("Kan de file niet openen");
+                MessageBox.Show("Kan file niet openen");
             }
         }
 
-        private void buttonHistogram_Click(object sender, EventArgs e)
+        private void ButtonHistogram_Click(object sender, EventArgs e)
         {
-            Logica.ColorCode code =(Logica.ColorCode) Enum.Parse(typeof(Logica.ColorCode), comboBoxColorCode.SelectedValue.ToString());
+            var cs = (ColorSystems)Enum.Parse(typeof(ColorSystems), comboBoxColorCode.SelectedValue.ToString());
+            var margin = (int)numericUpDownMargin.Value;
 
             statusLabel.Text = ("Histogram ORIGINEEL aan het berekenen...");
             statusLabel.Refresh();
-            imageHistoOrigineel.Image = logica.GetHistogram(new Bitmap(imageOrigineel.Image), (int)numericUpDownMargin.Value, checkBoxMinMax.Checked, checkBoxMargin.Checked, code);
+            imageHistoOrigineel.Image = logic.GetOriginalHistogram(cs, margin, checkBoxMargin.Checked, checkBoxMinMax.Checked);
             imageHistoOrigineel.Refresh();
 
             statusLabel.Text = ("Stretching...");
             statusLabel.Refresh();
-            imageStretch.Image = logica.Stretch(new Bitmap(imageOrigineel.Image), (int) numericUpDownMargin.Value, code);
+            imageStretch.Image = logic.GetStretchImage(cs, margin);
             imageStretch.Refresh();
 
             statusLabel.Text = ("Histogram Stretch aan het berekenen...");
             statusLabel.Refresh();
-            imageHistoStretch.Image = logica.GetHistogram(new Bitmap(imageStretch.Image), (int)numericUpDownMargin.Value, false, false, code);
+            imageHistoStretch.Image = logic.GetStretchHistogram(cs);
             imageHistoStretch.Refresh();
 
             statusLabel.Text = ("Done!");
@@ -75,38 +70,53 @@ namespace Histogram
             imageHistoStretch.Image = null;
         }
 
-        private void imageHistoOrigineel_DoubleClick(object sender, EventArgs e) {
-            try {
+        private void ImageHistoOrigineel_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
                 DialogResult result = saveFileDialog.ShowDialog();
-                if (result == DialogResult.OK) {
-                    imageHistoOrigineel.Image.Save(saveFileDialog.FileName);
+                if (result == DialogResult.OK)
+                {
+                    logic.SaveOriginalHistogram(saveFileDialog.FileName);
                     ResetGUI();
                 }
-            } catch {
+            }
+            catch
+            {
                 MessageBox.Show("Kan de file niet oplsaan");
             }
         }
 
-        private void imageHistoStretch_DoubleClick(object sender, EventArgs e) {
-            try {
+        private void ImageHistoStretch_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
                 DialogResult result = saveFileDialog.ShowDialog();
-                if (result == DialogResult.OK) {
-                    imageHistoStretch.Image.Save(saveFileDialog.FileName);
+                if (result == DialogResult.OK)
+                {
+                    logic.SaveStretchHistogram(saveFileDialog.FileName);
                     ResetGUI();
                 }
-            } catch {
+            }
+            catch
+            {
                 MessageBox.Show("Kan de file niet oplsaan");
             }
         }
 
-        private void imageStretch_DoubleClick(object sender, EventArgs e) {
-            try {
+        private void imageStretch_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
                 DialogResult result = saveFileDialog.ShowDialog();
-                if (result == DialogResult.OK) {
-                    imageStretch.Image.Save(saveFileDialog.FileName);
+                if (result == DialogResult.OK)
+                {
+                    logic.SaveStretchImage(saveFileDialog.FileName);
                     ResetGUI();
                 }
-            } catch {
+            }
+            catch
+            {
                 MessageBox.Show("Kan de file niet oplsaan");
             }
         }

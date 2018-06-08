@@ -1,6 +1,6 @@
-﻿namespace Histogram
+﻿namespace GuiLayer
 {
-    partial class Histogram
+    partial class Gui
     {
         /// <summary>
         /// Required designer variable.
@@ -61,7 +61,7 @@
             this.inlezen.TabIndex = 0;
             this.inlezen.Text = "Inlezen afbeelding";
             this.inlezen.UseVisualStyleBackColor = true;
-            this.inlezen.Click += new System.EventHandler(this.inlezen_Click);
+            this.inlezen.Click += new System.EventHandler(this.Inlezen_Click);
             // 
             // imageOrigineel
             // 
@@ -96,7 +96,7 @@
             this.imageHistoOrigineel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imageHistoOrigineel.TabIndex = 7;
             this.imageHistoOrigineel.TabStop = false;
-            this.imageHistoOrigineel.DoubleClick += new System.EventHandler(this.imageHistoOrigineel_DoubleClick);
+            this.imageHistoOrigineel.DoubleClick += new System.EventHandler(this.ImageHistoOrigineel_DoubleClick);
             // 
             // statusLabel
             // 
@@ -117,7 +117,7 @@
             this.buttonHistogram.TabIndex = 9;
             this.buttonHistogram.Text = "Bereken Histogram";
             this.buttonHistogram.UseVisualStyleBackColor = true;
-            this.buttonHistogram.Click += new System.EventHandler(this.buttonHistogram_Click);
+            this.buttonHistogram.Click += new System.EventHandler(this.ButtonHistogram_Click);
             // 
             // imageStretch
             // 
@@ -141,7 +141,7 @@
             this.imageHistoStretch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imageHistoStretch.TabIndex = 13;
             this.imageHistoStretch.TabStop = false;
-            this.imageHistoStretch.DoubleClick += new System.EventHandler(this.imageHistoStretch_DoubleClick);
+            this.imageHistoStretch.DoubleClick += new System.EventHandler(this.ImageHistoStretch_DoubleClick);
             // 
             // label1
             // 

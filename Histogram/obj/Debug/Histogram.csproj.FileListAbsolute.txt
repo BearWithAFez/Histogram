@@ -38,3 +38,13 @@ D:\Histogram\Histogram\obj\Debug\Histogram.csproj.GenerateResource.Cache
 D:\Histogram\Histogram\obj\Debug\Histogram.csproj.CoreCompileInputs.cache
 D:\Histogram\Histogram\obj\Debug\Histogram.exe
 D:\Histogram\Histogram\obj\Debug\Histogram.pdb
+C:\Users\dwigh\Documents\Histogram\Histogram\bin\Debug\Histogram.exe.config
+C:\Users\dwigh\Documents\Histogram\Histogram\bin\Debug\Histogram.exe
+C:\Users\dwigh\Documents\Histogram\Histogram\bin\Debug\Histogram.pdb
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.csprojAssemblyReference.cache
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.Histogram.resources
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.Properties.Resources.resources
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.csproj.GenerateResource.cache
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.csproj.CoreCompileInputs.cache
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.exe
+C:\Users\dwigh\Documents\Histogram\Histogram\obj\Debug\Histogram.pdb

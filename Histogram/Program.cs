@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Histogram
+namespace GuiLayer
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Histogram
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Histogram());
+            Application.Run(new Gui());
         }
     }
 }
